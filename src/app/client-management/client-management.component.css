@@ -1,0 +1,23 @@
+.container{
+    display: block;
+    font-style:initial;
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.form-group{
+    font-display: bold;
+    font-size: larger;
+    text-decoration: none;
+    width: 10rem;
+    padding: 5px;
+    margin: 7px;
+}
+.form-control{
+    font-size: large;
+}
+.btn{
+    margin: 16px;
+    padding: 5px;
+}
