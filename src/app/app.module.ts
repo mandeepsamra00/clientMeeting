@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ClientManagementComponent } from './client-management/client-management.component';
 import { ClientMeetingComponent } from './client-meeting/client-meeting.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
